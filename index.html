@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <Title>Denzel's Car Sale</Title>
+    </head>
+<body>
+    <header>
+        <h1>Welcome to Denzels Car sale Yard</h1>
+        <h1>Car and Bike sale</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#registration">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="Home">
+                <h2>Home</h2>
+                <p>Car imports company</p>
+                <h3>Top selling cars</h3>
+                <ol type="I">
+                    <li>Toyota landcruiser</li>
+                    <li>Nissan GTR</li>
+                    <li>Lexus</li>
+                </ol> 
+            </section>
+            <section id="Gallery">
+                <h2>Gallery</h2>
+                <p>Images of cars and bikes</p>
+                <figure>
+                    <img src="Car2.JPG" alt="Car 2" width="300" height="200">
+                    <figcaption>Toyota Landcruiser</figcaption>
+                </figure>
+                <figure>
+                    <img src="Car3.JPG" alt="Car 3" width="300" height="200">
+                    <figcaption>Nissan GTR</figcaption>
+                </figure>
+                <figure>
+                    <img src="Car1.JPG" alt="Car 1" width="300" height="200">
+                    <figcaption>Lexus</figcaption>
+            </section> 
+
+<section id="Contacts">
+    <h2>Contacts</h2>
+    <table border="1">
+        <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Email</th>
+        </tr>
+        <tr>
+            <td>Denzel Odhiambo</td>
+            <td>1234 Nairobi</td>
+            <td>0705815344</td>
+            <td>denzelodhiambo10@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Micheal Olunga</td>
+            <td>123 Homabay</td>
+            <td>0705815344</td>
+            <td>michealolunga@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Victor Wanyama</td>
+            <td>123 Kakamega</td>
+            <td>0701020304</td>
+            <td>victorwanyama@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Cynthia Pasile</td>
+            <td>101 Mombasa</td>
+            <td>0709080706</td>
+            <td>cynthiapasile@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rosemary Kemuma</td>
+            <td>105 Kisii</td>
+            <td>0706050403</td>
+            <td>rosie@gmail.com</td>
+        </tr>
+    </table>
+</section>
+<section id="registration">
+    <h2>Registration</h2>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="car">Car:</label><br>
+        <input type="text" id="car" name="car"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8"><br>
+        <input type="submit" value="Submit"><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="kenya">KENYA</option>
+            <option value="Uganda">UGANDA</option>
+            <option value="Tanzania">TANZANIA</option>
+            <option value="South Africa">SOUTH AFRICA</option>
+        </select><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required> Male
+        <input type="radio" id="female" name="gender" value="female"> Female <br>
+        
+
+        <label>Interests:</label>
+                <input type="checkbox" name="interest" value="cars"> Cars
+                <input type="checkbox" name="interest" value="sports"> Sports
+                <input type="checkbox" name="interest" value="technology"> Technology<br>
+    </form>
+    
+
+</body>
+</html>
